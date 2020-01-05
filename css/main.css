@@ -254,14 +254,14 @@ img {
 		display: block;
 		position: fixed;
 		margin: auto;
-		padding-top: 8rem;
+		padding-top: calc(12rem - 16vw);
 
 		z-index: -100;
 	}
 
 	h1 {
-		font-size: calc(10vw);
-		line-height: calc(10vw);
+		font-size: calc(11vw);
+		line-height: calc(12vw);
 	}
 
 	.placeholder.landing {
@@ -294,6 +294,9 @@ img {
 	.footer {
 		grid-column-start: 1;
 		grid-column-end: 2;
+
+		margin-top: -6rem;
+		margin-bottom: 3rem;
 	}
 
 }
