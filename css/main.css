@@ -260,8 +260,8 @@ img {
 	}
 
 	h1 {
-		font-size: 3.5rem;
-		line-height: 4rem;
+		font-size: calc(10vw);
+		line-height: calc(10vw);
 	}
 
 	.placeholder.landing {
