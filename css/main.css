@@ -254,6 +254,7 @@ img {
 		display: block;
 		position: fixed;
 		margin: auto;
+		padding-top: 8rem;
 
 		z-index: -100;
 	}
@@ -263,11 +264,15 @@ img {
 		line-height: 4rem;
 	}
 
+	.placeholder.landing {
+		width: calc(100vw - 6.5rem);
+		height: calc(100vh - 6rem);
+	}
+
 	.operations {
 		position: relative;
 		width: calc(100vw - 6.5rem);
 		height: 30rem;
-		margin-top: 100vh;
 	}
 
 	.content {
@@ -289,10 +294,6 @@ img {
 	.footer {
 		grid-column-start: 1;
 		grid-column-end: 2;
-	}
-
-	.placeholder {
-		display: none;
 	}
 
 }
