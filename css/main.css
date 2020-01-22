@@ -57,7 +57,10 @@
 .landing {
 	height: 100vh;
 	width: calc(100vw - 24rem);
-	padding: 6rem 0rem 0rem 1rem;
+	padding-top: calc(55vh - 20vw);
+	padding-bottom: 0rem;
+	padding-right: 0rem;
+	padding-left: 1rem;
 	margin-bottom: -10rem;
 	overflow: hidden;
 
@@ -341,6 +344,7 @@ img {
 
 	.landing.half-screen {
 		display: block;
+		padding-top: calc(40vh - 20vw);
 	}
 
 	.landing.mobile {
@@ -413,7 +417,7 @@ img {
 		display: block;
 		position: fixed;
 		margin: auto;
-		padding-top: calc(12rem - 16vw);
+		padding-top: calc(30vh - 20vw);
 
 		z-index: -200;
 	}
