@@ -93,6 +93,8 @@
 	width: 16rem;
 	padding: 3rem;
 
+	margin-bottom: 12rem;
+
 	overflow: auto;
 }
 
@@ -183,7 +185,7 @@ h2.brunch {
 }
 
 h2.bowls {
-	color: rgb(35,31,32);
+	color: rgb(190, 166, 146);
 	margin-right: 9rem;
 }
 
@@ -246,7 +248,7 @@ a:hover {
 .block.oper {
 	position: absolute;
 	display: block;
-	bottom: 10rem;
+	top: 16rem;
 	margin: auto;
 	width: calc(100% - 6rem);
 }
@@ -297,7 +299,7 @@ img {
 	width: 24rem;
 	height: auto;
 	margin-left: calc(50% - 6rem);
-	margin-bottom: -10rem;
+	margin-bottom: -12rem;
 }
 
 .icon.pastries {
@@ -321,7 +323,29 @@ img {
 
 /*SMALLER SCREEN*/
 
-@media only screen and (max-width: 1230px) {
+@media only screen and (max-width: 4230px) {
+
+
+	.landing.desktop {
+		display: block;
+		padding-top: calc(16vh);
+	}
+
+	.landing.half-screen {
+		display: none;
+	}
+
+	.landing.mobile {
+		display: none;
+	}
+
+	h1 {
+		font-size: calc(6rem);
+		line-height: calc(6.6rem);
+	}
+}
+
+@media only screen and (max-width: 1350px) {
 
 	.wrapper {
 		display: grid;
@@ -437,9 +461,9 @@ img {
 		width: calc(100vw - 6.5rem);
 		height: 38rem;
 
-		overflow: hidden;
+		overflow: auto;
 
-		margin-bottom: -5rem;
+		margin-bottom: 12rem;
 	}
 
 	.oper.bg {
@@ -450,11 +474,6 @@ img {
 		height: 41rem;
 		width: 110vw;
 		z-index: -100;
-	}
-
-	.block.oper {
-		position: absolute;
-		bottom: 7rem;
 	}
 
 	.content {
